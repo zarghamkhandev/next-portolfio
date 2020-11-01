@@ -8,6 +8,11 @@ module.exports = {
     extend: {
       colors: {
         'accent-1': '#333',
+        lightPurple: '#CFBBF8',
+        darkPurple: '#7B5FCE',
+      },
+      fontFamily: {
+        Avenir: ['Avenir', 'sans-serif'],
       },
     },
   },
