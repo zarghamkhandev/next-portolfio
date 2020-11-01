@@ -34,7 +34,7 @@ const Index: React.FunctionComponent = ({}) => {
           I build things for the <span className="text-darkPurple">Web</span>
         </motion.h1>
         <motion.p
-          className="text-sm text-justify text-gray-700 md:text-base lg:text-xl mb-4 "
+          className="text-sm font-medium text-justify text-gray-700 md:text-base lg:text-xl mb-4 "
           animate={{ opacity: 1 }}
           initial={{ opacity: 0 }}
           transition={{ delay: 1 + 1, duration: 0.75, ease: 'easeIn' }}>
