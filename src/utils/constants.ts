@@ -1,10 +1,5 @@
 export const images = [
   {
-    id: 7,
-    src: '/images/project7.jpg',
-    link: 'https://elastic-haibt-6c19a8.netlify.app/',
-  },
-  {
     id: 1,
     src: '/images/project6.jpg',
     link: 'https://hopeful-kalam-d54694.netlify.app/',
