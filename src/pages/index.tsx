@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Layout from '../components/Layout';
 import { motion } from 'framer-motion';
 import CardsContainer from '../components/CardsContainer';
@@ -54,12 +54,6 @@ const Index: React.FunctionComponent = ({}) => {
             transition={{ delay: 0.75, duration: 0.5 }}>
             I build things for the <span className="text-darkPurple">Web</span>
           </motion.h1>
-          <button
-            onClick={() => {
-              socket.emit('please');
-            }}>
-            fetch data
-          </button>
           <motion.p
             className="text-sm  text-justify text-gray-700 md:text-base lg:text-xl mb-4 "
             animate={{ opacity: 1 }}
