@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Layout from '../components/Layout';
 import { motion } from 'framer-motion';
 import CardsContainer from '../components/CardsContainer';
@@ -14,12 +14,6 @@ const Index: React.FunctionComponent = ({}) => {
           name="image"
           property="og:image"
           content="https://zarghamkhan.com/images/thumbnail.png"></meta>
-        <script
-          data-embed="shopables"
-          type="text/javascript"
-          defer
-          src="https://shopables.s3.eu-central-1.amazonaws.com/script.js"
-          data-shop="460b3f6a73"></script>
         <meta
           name="description"
           content="Frontend developer (React | Angular)"
