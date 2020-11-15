@@ -3,17 +3,8 @@ import Layout from '../components/Layout';
 import { motion } from 'framer-motion';
 import CardsContainer from '../components/CardsContainer';
 import Head from 'next/head';
-import { io } from 'socket.io-client';
-const socket = io('http://localhost:4000', {
-  transports: ['websocket'],
-  upgrade: false,
-});
+
 const Index: React.FunctionComponent = ({}) => {
-  useEffect(() => {
-    socket.on('progress', (data: any) => {
-      console.log(data);
-    });
-  }, []);
   return (
     <>
       <Head>
@@ -57,12 +48,6 @@ const Index: React.FunctionComponent = ({}) => {
             transition={{ delay: 0.75, duration: 0.5 }}>
             I build things for the <span className="text-darkPurple">Web</span>
           </motion.h1>
-          <button
-            onClick={() => {
-              socket.emit('please');
-            }}>
-            fetch data
-          </button>
           <motion.p
             className="text-sm  text-justify text-gray-700 md:text-base lg:text-xl mb-4 "
             animate={{ opacity: 1 }}
