@@ -8,8 +8,8 @@ const ContactContainer: React.FunctionComponent<ContactContainerProps> = ({}) =>
       <h2 className="text-2xl font-medium text-gray-800 md:text-lg">
         Willing to hire?
       </h2>
-      <button className="my-gradient w-full py-2 rounded-lg text-3xl text-white font-bold mt-2 md:text-lg md:py-1 ">
-        contact me
+      <button className="my-gradient w-full py-2 rounded-lg text-3xl text-white focus:outline-none font-medium mt-2 md:text-lg md:py-1 ">
+        Download resume
       </button>
     </div>
   );

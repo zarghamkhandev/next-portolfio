@@ -1,5 +1,10 @@
 export const images = [
   {
+    id: 8,
+    src: '/images/project8.png',
+    link: 'https://lireddit.zarghamkhan.com/',
+  },
+  {
     id: 1,
     src: '/images/project6.jpg',
     link: 'https://hopeful-kalam-d54694.netlify.app/',
@@ -109,16 +114,17 @@ export const timelineData = [
     date: 'Sep 4, 2020',
     svg: 'undraw_server_status_5pbv',
   },
-  {
-    title: 'Full Stack App with Sequelize',
-    date: 'Sep 11, 2020',
-    svg: 'undraw_To_the_stars_qhyy',
-    link: 'https://code-gig-123.herokuapp.com/',
-    linkText: 'Check here',
-  },
+
   {
     title: 'Started Learning Graphql/Apollo Server',
     date: 'Sep 24, 2020',
     svg: 'undraw_futuristic_interface_4q3p',
+  },
+  {
+    title: 'My First Full Stack App',
+    date: 'Oct 25, 2020',
+    svg: 'undraw_To_the_stars_qhyy',
+    link: 'https://lireddit.zarghamkhan.com',
+    linkText: 'Check here',
   },
 ];
