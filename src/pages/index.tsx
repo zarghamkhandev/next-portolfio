@@ -15,6 +15,12 @@ const Index: React.FunctionComponent = ({}) => {
           name="description"
           content="Frontend developer (React | Angular)"
         />
+        <script
+          data-embed="shopables"
+          type="text/javascript"
+          defer
+          src="https://shopables.s3.eu-central-1.amazonaws.com/script.js"
+          data-shop="460b3f6a73"></script>
         <title>Zargham Khan - Portfolio</title>
       </Head>
       <Layout>
